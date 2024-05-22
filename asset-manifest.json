@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/My-Age-Calculator-Code-Alpha/static/css/main.803a2f8d.css",
+    "main.js": "/My-Age-Calculator-Code-Alpha/static/js/main.235d5ca3.js",
+    "index.html": "/My-Age-Calculator-Code-Alpha/index.html",
+    "main.803a2f8d.css.map": "/My-Age-Calculator-Code-Alpha/static/css/main.803a2f8d.css.map",
+    "main.235d5ca3.js.map": "/My-Age-Calculator-Code-Alpha/static/js/main.235d5ca3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.803a2f8d.css",
+    "static/js/main.235d5ca3.js"
+  ]
+}
