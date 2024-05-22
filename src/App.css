@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fcfefe;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  padding: 5px 0;
+  box-shadow: 0 0.125rem 0.3rem -0.0625rem rgb(0 0 0 / 3%), 0 0.275rem 0.75rem -0.0625rem rgb(0 0 0 / 6%) !important;
+}
+
+.header .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.col-header-img {
+  width:25%;
+  padding: 0;
+}
+
+.col-header-nav {
+  width: 65%; 
+  display: flex;
+  justify-content: flex-end;
+}
+
+.headnav {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+}
+
+.headnav li {
+  margin-left: 30px;
+  color:  rgb(6, 71, 168);
+  cursor: pointer;
+}
+
+.toggle {
+  display: none;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  right:15px;
+  top: 12px;
+  position: absolute;
+}
+.Age-Calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  height: 40vh; 
+}
+
+.Age-Calculator h1 {
+  text-align: center;
+  font-size: 1.6em;
+  font-weight: 400;
+  margin: 5px 0px;
+  line-height: 1.5;
+  color: #171717;
+}
+p {
+  margin: 6px 0 24px 0;
+  text-align: justify;
+}
+.Age-Calculator1 {
+  background-color: rgb(6, 71, 168);
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #6d4c41;
+  max-width:650px;
+  margin:0 auto;
+}
+.Age-Calculator1 h1 {
+  color: white;
+  text-align: center;
+}
+.age{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.age h1 {
+  color: #171717;
+  font-size: 1.6em;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.age p {
+  margin: 6px 0 24px 0;
+  text-align: justify;
+}
+
+hr {
+  border-color: white;
+}
+
+label {
+  color: white;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input[type="date"],
+.input[type="number"] {
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+.results {
+  margin-top: 20px;
+  color: white;
+}
+
+.results p {
+  margin-bottom: 5px;
+}
+.am-pm-radio{
+  display: flex;
+  margin-top: 10px;
+}
+.am-pm-radio input[type="radio"] {
+  margin-right: 10px; 
+}
+
+.am-pm-radio label {
+  margin-right: 10px;
+}
+.button{
+  background-color:rgb(211, 234, 239);
+  color: black;
+  font-size: 14px;
+  padding: 13px 33px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.button:hover{
+  background-color: rgb(23, 60, 207);
+  color:black;
+}
+.about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  height: 50vh; 
+}
+.about h1{
+  text-align: center;
+  font-size: 1.6em;
+  font-weight: 400;
+  margin: 5px 0px;
+  line-height: 1.5;
+  color: #171717;
+}
+.about P {
+  margin: 6px 0 24px 0;
+    text-align: justify;
+}
+.footer{
+  background-color: rgb(23, 60, 207);
+    border-top: 10px ridge #c7c7c7;
+    font-size: 90%;
+    padding: 20px 0 100px 0;
+}
+.footer p{
+  text-align: center;
+  color: #c7c7c7;
+}
+@media (max-width: 576px) {
+  .headnav li {
+    margin-left: 3px;
+    font-size: small;
+  }
+.img {
+    width: 100%;
+  }
+  .headnav li {
+    margin-right: 12px; 
+  }
+  
+  .headnav li:last-child {
+    margin-right: 0; 
+  }
+  .age{
+    height: 70vh;
+  }
+}
